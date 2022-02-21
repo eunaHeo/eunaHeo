@@ -1,36 +1,49 @@
-<div>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="z-index:1;position:relative" width="854" height="200" viewBox="0 0 854 200">
-        <style>
-                            .text {
-						font-size: 70px;
-						font-weight: 700;
-						font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-					}
-					.desc {
-						font-size: 20px;
-						font-weight: 500;
-						font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-					}
-                            
-         </style>
-         <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-                    
-            <defs>
-			    <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-				    <stop offset="0%" stop-color="#4568dc"/><stop offset="100%" stop-color="#b06ab3"/>
-				</linearGradient>
-		    </defs>
-				
-            <path d="" fill="url(#linear)" opacity="0.4">
-                <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z"/>
-            </path>
-            <path d="" fill="url(#linear)" opacity="0.4">
-                <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z"/>
-            </path>
-        </g>
-        <text text-anchor="middle" alignment-baseline="middle" x="80%" y="40%" class="text" style="fill:#f7f5f5;">Waving!</text>       
-    </svg>
-</div>
+<svg fill="none" viewBox="0 0 300 120" width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <style>
+        .tags {
+          display: flex;
+          flex-wrap: wrap;
+          height: 100%;
+          width: 100%;
+        }
+        .tag {
+          background-color: #E3FFFF;
+          border-radius: 0.25em;
+          color: #0ca4a5;
+          border: 1px solid #0ca4a5;
+          display: inline-block;
+          font-size: 0.75em;
+          line-height: 2em;
+          margin: 0.125em;
+          padding: 0 0.5em;
+          text-decoration: none;
+          font-family: sans-serif;
+        }
+      </style>
+
+      <div class="tags">
+        <div class="tag">Angular</div>
+        <div class="tag">Vue(X)</div>
+        <div class="tag">JavaScript</div>
+        <div class="tag">TypeScript</div>
+      </div>
+      <div class="tags">
+        <div class="tag">(S)CSS</div>
+        <div class="tag">Building UIs</div>
+        <div class="tag">Web Components</div>
+      </div>
+      <div class="tags">
+        <div class="tag">Ionic</div>
+        <div class="tag">Electron</div>
+        <div class="tag">.NET</div>
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
 
 <!--
 **eunaHeo/eunaHeo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
