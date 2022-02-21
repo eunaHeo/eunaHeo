@@ -30,7 +30,7 @@
         </g>
         <text text-anchor="middle" alignment-baseline="middle" x="80%" y="40%" class="text" style="fill:#f7f5f5;">Waving!</text>       
     </svg>
-<div>
+</div>
 
 <!--
 **eunaHeo/eunaHeo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
